@@ -33,7 +33,8 @@
     <children>
             <Label id="labela" text="Uzorak" />
             <TextField fx:id="poljeTeksta" GridPane.columnIndex="1" GridPane.columnSpan="2" />
-            <Button fx:id="traziDugme" onAction="#trazi" text="Traži" GridPane.columnIndex="3"/>
+            <Button fx:id="traziDugme" onAction="#traziButton" text="Traži" GridPane.columnIndex="3" />
+        <Button fx:id="prekiniDugme" onAction="#prekiniDugme" text="Prekini" GridPane.columnIndex="4" disable="true" />
         <ListView fx:id="lista" GridPane.columnSpan="8" GridPane.rowIndex="1" GridPane.rowSpan="3" prefWidth="Infinity" />
     </children>
         </GridPane>
